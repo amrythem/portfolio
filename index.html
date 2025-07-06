@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arpit's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            background-color: rgb(0, 0, 0);
+            color: rgb(54, 218, 190);
+            font-family: Poppins, sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 85px;
+            background-color: rgb(255, 255, 255);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0px 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: rgb(54, 218, 190);
+        }
+
+        nav ul li a:hover {
+            color: palevioletred;
+            font-size: 1.04rem;
+        }
+
+        hr {
+            border: 0;
+            background-color: rgb(255, 255, 255);
+            height: 1px;
+            margin: 40px 84px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+            font-weight: 600;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            margin: 80px 0px;
+            align-items: center;
+        }
+
+        .firstsection > div {
+            width: 30%;
+        }
+
+        .leftsection {
+            font-size: 2.5rem;
+            font-weight: 200;
+            margin: 70px;
+        }
+        .leftsection .btn{
+            padding: 10px;
+            background-color: rgb(255, 255, 255);
+            box-sizing: border-box;
+            border: 3px solid rgb(54, 218, 190);
+            border-radius: 10px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        .leftsection .btn:hover{
+            background-color: rgb(54, 218, 190);
+            color: rgb(255, 245, 55);
+            font-weight: 600;
+        }
+        .leftsection button{
+            padding: 20px;
+        }
+        .rightsection img {
+            width: 114%;
+            margin: 50px 0px;
+        }
+
+        .name {
+            font-weight: 400;
+            color: rgb(255, 245, 55);
+            font-style: oblique;
+        }
+        /* .gray{
+            color: gray;
+            align-items: center;
+        } */
+
+        #element {
+            color: rgb(255, 245, 55);
+            font-weight: 400;
+            font-style: oblique;
+        }
+        
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+        .secondSection h1 {
+            text-align: center;
+            font-size: 2.5rem;
+            margin: 20px 0px;
+            color: rgb(255, 245, 55);
+        }
+        .secondSection .box{
+            background-color: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+            justify-content: space-around;
+        }
+        .secondSection .vertical {
+          height: 93px;
+            width: 10px;
+            background-color: rgb(255, 255, 255);
+            margin: 0px 120px;  
+        }
+        .image-top {
+            width: 40px;
+            height: 40px;
+           position: relative;
+            top: -40px;
+            left: -13px;
+        }
+        .vertical-title{
+            position: relative;
+            top: 75px;
+            width: 150px;
+        }
+        .vertical-desc{
+            position: relative;
+            top: 86px;
+            color: gray;
+            width: 200px;
+            font-size: 11px;
+        }
+        footer{
+            background-color: rgb(255, 255, 255);
+            height: 280px;
+        }
+        .footer{
+           display: flex;
+           padding: 23px 122px;
+           justify-content: space-around;
+        }
+        .footer ul{
+            list-style: none;
+        }
+        .footer ul li a{
+            text-decoration: none;
+            color: rgb(54, 218, 190);
+        }
+        .footer ul li a:hover{
+            color: palevioletred;
+            font-size: 1.04rem;
+        }
+        .text-centre {
+            text-align: center;
+            margin-top: 20px;
+            color: rgb(54, 218, 190);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Arpit's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">Hello, I am <span class="name">Arpit Mahoviya</span>
+                <div> I am a Passionate </div>
+                <!-- <div>Developer</div> -->
+                <span id="element"></span>
+                <button class="btn">Download Resume</button>
+                <button class="btn">Visit Github</button>
+            </div>
+            </div>
+            <div class="rightsection"><img src="web.png" alt="">
+            </div>
+        </section>
+
+        <hr>
+         
+        <section class="secondSection">
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                   <img class="image-top" src="tvclogo.png" alt="">
+                   <div class="vertical-title">
+                    Team Member At <span class="name">Thapar Venture Club</span>
+                   </div>
+                   <div class="vertical-desc">
+                    As a team member, I contributed to various projects, enhancing my skills in teamwork and Entreprenurship in marketing, event management, and content creation.
+                   </div>
+                </div>
+                <div class="vertical">
+                   <img class="image-top" src="TMClogo.png" alt="">
+                   <div class="vertical-title">
+                    Crew Member At <span class="name">Thapar Movie Club</span>
+                   </div>
+                   <div class="vertical-desc">
+                    As a crew member, I was involved in film screenings and discussions, 48hrs Film making competition, which helped me develop my organizational and communication skills.
+                   </div>
+                </div>
+                <div class="vertical">
+                   <img class="image-top" src="oorjalogo.png" alt="">
+                   <div class="vertical-title">
+                    Team Member At <span class="name">Team Oorja(Go Kart)</span>
+                   </div>
+                   <div class="vertical-desc">
+                    As a team member, I contributed in designing and video editing for the Go Kart project, which enhanced my skills in teamwork and gained a little bit hands on experience in the field of Go Kart manufacturing.
+                   </div>
+                </div>     
+                <div class="vertical">
+                   <img class="image-top" src="ctdlogo.png
+                   " alt="">
+                   <div class="vertical-title">
+                   Learner At <span class="name">Centre For Training and Development(CTD) TIET</span>
+                   </div>
+                   <div class="vertical-desc">
+                    As a learner, I participated in various training sessions like leadership roles, logical reasoning, Coping skills,etc. that helped me in my personal and professional development.
+                   </div>
+                </div>     
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+        <div class="footer-first"></div>
+        <h3>Arpit's Portfolio</h3>
+        <div class="footer-second">
+            <ul>
+                 <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#experience">Experience</a></li>
+            </ul>
+        </div>
+       </div> 
+       <div class="text-centre">
+            <p>© 2025 Arpit Mahoviya. All rights reserved.</p>
+            <p>Follow me on <a href="#">LinkedIn</a> | 
+            <a href="#">Instagram</a></p>
+       </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Video Editor', '&amp; Content Creator'],
+            typeSpeed: 100,
+        });
+    </script>
+</body>
+
+</html>
